@@ -3,6 +3,7 @@ import Meta from './meta';
 import NavBar from './navbar';
 import styles from '../styles/Home.module.css';
 
+// eslint-disable-next-line react/prop-types
 export default function Layout({ children }) {
     return (
         <div className={styles.container}>

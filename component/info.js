@@ -3,7 +3,8 @@ export default function Info() {
         <div>
             <div className="flex flex-col items-center md:flex-row pl-10 md:pl-40 pt-16">
                 <div className="rounded-full mb-2 md:mb-0 w-20 h-20 p-2 flex items-center justify-center bg-white">
-                    <img src="/logo.png" className="w-18 h-18 rounded-full" />
+                    {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
+                    <img src="/logo.png" className="w-18 h-18 rounded-full" alt="image" />
                 </div>
                 <div className="ml-4 text-center border border-white">
                     <h1 className="head-t font-bold font-mono tracking-wide px-3">HILTON HOTEL</h1>
